@@ -7,13 +7,16 @@
 //
 
 #import "HappinessAppDelegate.h"
-
+#import "ContactsListViewController.h"
 @implementation HappinessAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    ContactsListViewController* contactsList = [[ContactsListViewController alloc]initWithNibName:@"ContactsListViewController" bundle:[NSBundle mainBundle]];
+    self.navigationController = [[UINavigationController alloc]initWithRootViewController:contactsList];
+    [self.window setRootViewController:self.navigationController];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

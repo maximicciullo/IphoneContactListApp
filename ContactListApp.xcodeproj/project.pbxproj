@@ -19,6 +19,9 @@
 		83124F2E19AD81C4006B56FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83124F1619AD81C3006B56FA /* UIKit.framework */; };
 		83124F3619AD81C4006B56FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83124F3419AD81C4006B56FA /* InfoPlist.strings */; };
 		83124F3819AD81C4006B56FA /* ContactListAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83124F3719AD81C4006B56FA /* ContactListAppTests.m */; };
+		8B960CB419AF7697006E1301 /* ContactsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B960CB319AF7697006E1301 /* ContactsListViewController.m */; };
+		8B960CB719AF76DD006E1301 /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B960CB619AF76DD006E1301 /* ContactDetailViewController.m */; };
+		8B960CB919AF771E006E1301 /* ContactsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B960CB819AF771E006E1301 /* ContactsListViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		83124F3319AD81C4006B56FA /* ContactListAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ContactListAppTests-Info.plist"; sourceTree = "<group>"; };
 		83124F3519AD81C4006B56FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83124F3719AD81C4006B56FA /* ContactListAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactListAppTests.m; sourceTree = "<group>"; };
+		8B960CB219AF7697006E1301 /* ContactsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsListViewController.h; sourceTree = "<group>"; };
+		8B960CB319AF7697006E1301 /* ContactsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsListViewController.m; sourceTree = "<group>"; };
+		8B960CB519AF76DD006E1301 /* ContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
+		8B960CB619AF76DD006E1301 /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
+		8B960CB819AF771E006E1301 /* ContactsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsListViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,11 @@
 		83124F1819AD81C3006B56FA /* ContactListApp */ = {
 			isa = PBXGroup;
 			children = (
+				8B960CB219AF7697006E1301 /* ContactsListViewController.h */,
+				8B960CB319AF7697006E1301 /* ContactsListViewController.m */,
+				8B960CB819AF771E006E1301 /* ContactsListViewController.xib */,
+				8B960CB519AF76DD006E1301 /* ContactDetailViewController.h */,
+				8B960CB619AF76DD006E1301 /* ContactDetailViewController.m */,
 				83124F2119AD81C3006B56FA /* HappinessAppDelegate.h */,
 				83124F2219AD81C3006B56FA /* HappinessAppDelegate.m */,
 				83124F2419AD81C3006B56FA /* Images.xcassets */,
@@ -222,6 +235,7 @@
 			files = (
 				83124F1D19AD81C3006B56FA /* InfoPlist.strings in Resources */,
 				83124F2519AD81C3006B56FA /* Images.xcassets in Resources */,
+				8B960CB919AF771E006E1301 /* ContactsListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				83124F2319AD81C3006B56FA /* HappinessAppDelegate.m in Sources */,
+				8B960CB419AF7697006E1301 /* ContactsListViewController.m in Sources */,
+				8B960CB719AF76DD006E1301 /* ContactDetailViewController.m in Sources */,
 				83124F1F19AD81C3006B56FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +454,7 @@
 				83124F3D19AD81C4006B56FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83124F3E19AD81C4006B56FA /* Build configuration list for PBXNativeTarget "ContactListAppTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +463,7 @@
 				83124F4019AD81C4006B56FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
