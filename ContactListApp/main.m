@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "HappinessAppDelegate.h"
+#import "ContactsAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([HappinessAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([ContactsAppDelegate class]));
     }
 }

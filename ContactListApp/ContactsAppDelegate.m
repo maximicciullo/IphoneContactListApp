@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 maxi micciullo. All rights reserved.
 //
 
-#import "HappinessAppDelegate.h"
+#import "ContactsAppDelegate.h"
 #import "ContactsListViewController.h"
-@implementation HappinessAppDelegate
+@implementation ContactsAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

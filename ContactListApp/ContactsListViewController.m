@@ -7,11 +7,12 @@
 //
 
 #import "ContactsListViewController.h"
+#import "ContactTableViewCell.h"
 
 @interface ContactsListViewController ()
 
 //Tabla que contendra celdas con los contactos
-@property (nonatomic, strong) UITableView * contactsTableView;
+@property (nonatomic, strong)IBOutlet  UITableView * contactsTableView;
 
 @end
 

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HappinessAppDelegate : UIResponder <UIApplicationDelegate>
+@interface ContactsAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

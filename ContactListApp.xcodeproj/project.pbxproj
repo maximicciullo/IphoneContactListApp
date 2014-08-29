@@ -12,7 +12,7 @@
 		83124F1719AD81C3006B56FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83124F1619AD81C3006B56FA /* UIKit.framework */; };
 		83124F1D19AD81C3006B56FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83124F1B19AD81C3006B56FA /* InfoPlist.strings */; };
 		83124F1F19AD81C3006B56FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83124F1E19AD81C3006B56FA /* main.m */; };
-		83124F2319AD81C3006B56FA /* HappinessAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83124F2219AD81C3006B56FA /* HappinessAppDelegate.m */; };
+		83124F2319AD81C3006B56FA /* ContactsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83124F2219AD81C3006B56FA /* ContactsAppDelegate.m */; };
 		83124F2519AD81C3006B56FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83124F2419AD81C3006B56FA /* Images.xcassets */; };
 		83124F2C19AD81C4006B56FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83124F2B19AD81C4006B56FA /* XCTest.framework */; };
 		83124F2D19AD81C4006B56FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83124F1219AD81C3006B56FA /* Foundation.framework */; };
@@ -22,6 +22,8 @@
 		8B960CB419AF7697006E1301 /* ContactsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B960CB319AF7697006E1301 /* ContactsListViewController.m */; };
 		8B960CB719AF76DD006E1301 /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B960CB619AF76DD006E1301 /* ContactDetailViewController.m */; };
 		8B960CB919AF771E006E1301 /* ContactsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B960CB819AF771E006E1301 /* ContactsListViewController.xib */; };
+		8B960CCC19B0D10E006E1301 /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B960CCB19B0D10E006E1301 /* ContactTableViewCell.m */; };
+		8B960CCF19B0D19F006E1301 /* ContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B960CCE19B0D19F006E1301 /* ContactModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +45,8 @@
 		83124F1C19AD81C3006B56FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83124F1E19AD81C3006B56FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		83124F2019AD81C3006B56FA /* ContactListApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContactListApp-Prefix.pch"; sourceTree = "<group>"; };
-		83124F2119AD81C3006B56FA /* HappinessAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappinessAppDelegate.h; sourceTree = "<group>"; };
-		83124F2219AD81C3006B56FA /* HappinessAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappinessAppDelegate.m; sourceTree = "<group>"; };
+		83124F2119AD81C3006B56FA /* ContactsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsAppDelegate.h; sourceTree = "<group>"; };
+		83124F2219AD81C3006B56FA /* ContactsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsAppDelegate.m; sourceTree = "<group>"; };
 		83124F2419AD81C3006B56FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		83124F2A19AD81C4006B56FA /* ContactListAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactListAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83124F2B19AD81C4006B56FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -56,6 +58,10 @@
 		8B960CB519AF76DD006E1301 /* ContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
 		8B960CB619AF76DD006E1301 /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
 		8B960CB819AF771E006E1301 /* ContactsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsListViewController.xib; sourceTree = "<group>"; };
+		8B960CCA19B0D10E006E1301 /* ContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
+		8B960CCB19B0D10E006E1301 /* ContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
+		8B960CCD19B0D19F006E1301 /* ContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactModel.h; sourceTree = "<group>"; };
+		8B960CCE19B0D19F006E1301 /* ContactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +124,14 @@
 				8B960CB219AF7697006E1301 /* ContactsListViewController.h */,
 				8B960CB319AF7697006E1301 /* ContactsListViewController.m */,
 				8B960CB819AF771E006E1301 /* ContactsListViewController.xib */,
+				8B960CCA19B0D10E006E1301 /* ContactTableViewCell.h */,
+				8B960CCB19B0D10E006E1301 /* ContactTableViewCell.m */,
 				8B960CB519AF76DD006E1301 /* ContactDetailViewController.h */,
 				8B960CB619AF76DD006E1301 /* ContactDetailViewController.m */,
-				83124F2119AD81C3006B56FA /* HappinessAppDelegate.h */,
-				83124F2219AD81C3006B56FA /* HappinessAppDelegate.m */,
+				83124F2119AD81C3006B56FA /* ContactsAppDelegate.h */,
+				83124F2219AD81C3006B56FA /* ContactsAppDelegate.m */,
+				8B960CCD19B0D19F006E1301 /* ContactModel.h */,
+				8B960CCE19B0D19F006E1301 /* ContactModel.m */,
 				83124F2419AD81C3006B56FA /* Images.xcassets */,
 				83124F1919AD81C3006B56FA /* Supporting Files */,
 			);
@@ -254,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83124F2319AD81C3006B56FA /* HappinessAppDelegate.m in Sources */,
+				8B960CCF19B0D19F006E1301 /* ContactModel.m in Sources */,
+				83124F2319AD81C3006B56FA /* ContactsAppDelegate.m in Sources */,
 				8B960CB419AF7697006E1301 /* ContactsListViewController.m in Sources */,
+				8B960CCC19B0D10E006E1301 /* ContactTableViewCell.m in Sources */,
 				8B960CB719AF76DD006E1301 /* ContactDetailViewController.m in Sources */,
 				83124F1F19AD81C3006B56FA /* main.m in Sources */,
 			);
