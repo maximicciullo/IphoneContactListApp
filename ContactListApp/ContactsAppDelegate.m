@@ -14,8 +14,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    //Instancio Controller de listado de contactos
     ContactsListViewController* contactsList = [[ContactsListViewController alloc]initWithNibName:@"ContactsListViewController" bundle:[NSBundle mainBundle]];
+    //Instancio navigation controller y lo inicializo con controller de contactos
     self.navigationController = [[UINavigationController alloc]initWithRootViewController:contactsList];
+    //A la screen base la inicializo con el naviggationcontroller
     [self.window setRootViewController:self.navigationController];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

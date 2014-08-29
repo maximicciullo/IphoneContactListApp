@@ -12,7 +12,7 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-//Navigation controller
+//Navigation controller que manejara el controller de la tabla de contactos y el detalle de contacto
 @property (strong, nonatomic) UINavigationController *navigationController;
 
 @end

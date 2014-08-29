@@ -24,6 +24,7 @@
 		8B960CB919AF771E006E1301 /* ContactsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B960CB819AF771E006E1301 /* ContactsListViewController.xib */; };
 		8B960CCC19B0D10E006E1301 /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B960CCB19B0D10E006E1301 /* ContactTableViewCell.m */; };
 		8B960CCF19B0D19F006E1301 /* ContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B960CCE19B0D19F006E1301 /* ContactModel.m */; };
+		8B960CD219B0D43E006E1301 /* ContactsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B960CD119B0D43E006E1301 /* ContactsManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		8B960CCB19B0D10E006E1301 /* ContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
 		8B960CCD19B0D19F006E1301 /* ContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactModel.h; sourceTree = "<group>"; };
 		8B960CCE19B0D19F006E1301 /* ContactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactModel.m; sourceTree = "<group>"; };
+		8B960CD019B0D43E006E1301 /* ContactsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsManager.h; sourceTree = "<group>"; };
+		8B960CD119B0D43E006E1301 /* ContactsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				8B960CB619AF76DD006E1301 /* ContactDetailViewController.m */,
 				83124F2119AD81C3006B56FA /* ContactsAppDelegate.h */,
 				83124F2219AD81C3006B56FA /* ContactsAppDelegate.m */,
+				8B960CD019B0D43E006E1301 /* ContactsManager.h */,
+				8B960CD119B0D43E006E1301 /* ContactsManager.m */,
 				8B960CCD19B0D19F006E1301 /* ContactModel.h */,
 				8B960CCE19B0D19F006E1301 /* ContactModel.m */,
 				83124F2419AD81C3006B56FA /* Images.xcassets */,
@@ -267,6 +272,7 @@
 				8B960CCF19B0D19F006E1301 /* ContactModel.m in Sources */,
 				83124F2319AD81C3006B56FA /* ContactsAppDelegate.m in Sources */,
 				8B960CB419AF7697006E1301 /* ContactsListViewController.m in Sources */,
+				8B960CD219B0D43E006E1301 /* ContactsManager.m in Sources */,
 				8B960CCC19B0D10E006E1301 /* ContactTableViewCell.m in Sources */,
 				8B960CB719AF76DD006E1301 /* ContactDetailViewController.m in Sources */,
 				83124F1F19AD81C3006B56FA /* main.m in Sources */,
