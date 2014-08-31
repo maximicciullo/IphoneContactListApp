@@ -10,4 +10,13 @@
 
 @interface ContactModel : NSObject
 
+@property ( nonatomic, copy) NSString * contactName;
+@property ( nonatomic, copy) UIImage * contactImage;
+@property ( nonatomic, assign) NSInteger contactId;
+@property ( nonatomic, copy) NSDate * contactBirthDate;
+@property ( nonatomic, copy) NSDictionary * contactPhones;
+
+
+- (id)initWithDictionary:(NSDictionary *)dictionary;
+
 @end

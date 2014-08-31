@@ -10,4 +10,10 @@
 
 @implementation ContactsManager
 
+
+- (NSInteger)contactsCount{
+    
+    return self.contacts.count;
+}
+
 @end

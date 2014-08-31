@@ -8,6 +8,7 @@
 
 #import "ContactsListViewController.h"
 #import "ContactTableViewCell.h"
+#import "ContactDetailViewController.h"
 #import "ContactsManager.h"
 @interface ContactsListViewController ()
 
@@ -27,6 +28,28 @@
     // Do any additional setup after loading the view.
 }
 
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    
+    return [self.contactsManager contactsCount];
+}
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    return nil;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    return 50.0;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    //Instancio controller de detalle, le paso el modelo que corresponde a esa celda y lo pusheo
+    
+   // ContactDetailViewController * contactDetail = [[ContactDetailViewController alloc]initWithModel:]
+}
 
 
 @end

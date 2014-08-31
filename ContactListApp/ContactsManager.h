@@ -13,4 +13,6 @@
 
 @property (nonatomic, strong) NSArray * contacts; // Array de ContactModel
 
+- (NSInteger)contactsCount;
+
 @end

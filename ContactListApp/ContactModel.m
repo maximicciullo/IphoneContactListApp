@@ -10,4 +10,14 @@
 
 @implementation ContactModel
 
+
+
+- (id)initWithDictionary:(NSDictionary *)dictionary {
+    if( self = [self init]) {
+        self.contactName = [dictionary valueForKey:@"name"];
+        //Agregar los demas campos al modelo
+    }
+    return self;
+}
+
 @end

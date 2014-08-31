@@ -25,6 +25,8 @@
 		8B960CCC19B0D10E006E1301 /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B960CCB19B0D10E006E1301 /* ContactTableViewCell.m */; };
 		8B960CCF19B0D19F006E1301 /* ContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B960CCE19B0D19F006E1301 /* ContactModel.m */; };
 		8B960CD219B0D43E006E1301 /* ContactsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B960CD119B0D43E006E1301 /* ContactsManager.m */; };
+		8B960CDB19B37456006E1301 /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B960CDA19B37456006E1301 /* ContactTableViewCell.xib */; };
+		8B960CDD19B374CA006E1301 /* ContactDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B960CDC19B374CA006E1301 /* ContactDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		8B960CCE19B0D19F006E1301 /* ContactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactModel.m; sourceTree = "<group>"; };
 		8B960CD019B0D43E006E1301 /* ContactsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsManager.h; sourceTree = "<group>"; };
 		8B960CD119B0D43E006E1301 /* ContactsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsManager.m; sourceTree = "<group>"; };
+		8B960CDA19B37456006E1301 /* ContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		8B960CDC19B374CA006E1301 /* ContactDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,8 +133,10 @@
 				8B960CB819AF771E006E1301 /* ContactsListViewController.xib */,
 				8B960CCA19B0D10E006E1301 /* ContactTableViewCell.h */,
 				8B960CCB19B0D10E006E1301 /* ContactTableViewCell.m */,
+				8B960CDA19B37456006E1301 /* ContactTableViewCell.xib */,
 				8B960CB519AF76DD006E1301 /* ContactDetailViewController.h */,
 				8B960CB619AF76DD006E1301 /* ContactDetailViewController.m */,
+				8B960CDC19B374CA006E1301 /* ContactDetailViewController.xib */,
 				83124F2119AD81C3006B56FA /* ContactsAppDelegate.h */,
 				83124F2219AD81C3006B56FA /* ContactsAppDelegate.m */,
 				8B960CD019B0D43E006E1301 /* ContactsManager.h */,
@@ -248,8 +254,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B960CDB19B37456006E1301 /* ContactTableViewCell.xib in Resources */,
 				83124F1D19AD81C3006B56FA /* InfoPlist.strings in Resources */,
 				83124F2519AD81C3006B56FA /* Images.xcassets in Resources */,
+				8B960CDD19B374CA006E1301 /* ContactDetailViewController.xib in Resources */,
 				8B960CB919AF771E006E1301 /* ContactsListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
